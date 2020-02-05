@@ -1,5 +1,10 @@
-# Aranda Design System
+---
+layout: doc
+info: Welcome to the Aranda Design System.
+nav: false
+---
 
+<h1> Introducción </h1>
 
 Un sistema de diseño fácil de usar, que tiene como objetivo presentar los elementos básicos de código abierto para cada una de nuestras herramientas a travez del lenguaje visual. Permitiendo así agrupar los principios esenciales de la interfaz y facilitar el proceso de desarrollos de nuestros productos.
 
@@ -24,3 +29,4 @@ Un sistema que logre unificar la experiencia del usuario en las diferentes inter
 ![personalizar]({{ site.baseurl }}/styleguide/images/personalizar.png)
 
 El lenguaje visual a través de variables generales como colores, fuentes, tamaños y otros elementos, dejando así un material que proporcione una base adaptable a la marca.
+___

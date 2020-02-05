@@ -1,0 +1,95 @@
+// Devices
+$medium-screen: 1080px;
+$tablet-screen: 768px;
+$mobile-screen: 480px;
+
+// Type Systems
+$roboto: 'Roboto', sans-serif;
+$robotoslab: 'Roboto Slab', serif;
+
+
+// Font Size
+$typo_lion: 2.6rem;
+$typo_panther: 1.8rem;
+$typo_leopard: 1.3rem;
+$typo_cat: 1rem;
+$typo_kitten: .8rem;
+
+// Neutral Colors
+$grey1: #666666;
+$grey2: #999999;
+$grey3: #b8b8b8;
+$grey4: #CCCCCC;
+$grey5: #DDDDDD;
+$grey6: #E0E0E0;
+$grey7: #EAEAEA;
+$grey8: #EFEFEF;
+$grey9: #F1F1F1;
+$white: #FFFFFF;
+
+// Feedback Colors
+$green1: #009145;
+$green2: #a1bc00;
+$orange: #ffa300;
+$yellow: #ffcc00;
+$red: #ff0000;
+$purple: #8962b2;
+
+// Secondary colors (Information, graphics)
+$bluesec: #2bbee0;
+$purplesec: #657d9e;
+$greensec: #42d69c;
+$purplesec1: #b3869c;
+$orangesec: #f5846f;
+$orangesec1: #e0684a;
+$purplesec2: #4e6e9c;
+$greensec1: #00a89b;
+$purplesec3: #b191bd;
+$bluesec1: #00a1c6;
+$bluesec2: #0089a8;
+$purplesec4: #7f5c8c;
+$greensec2: #077c83;
+$bluesec3: #35527a;
+$orangesec2: #f97352;
+$orangesec3: #f9957d;
+$purplesec5: #aabbdd;
+$greensec3: #8fd0b4;
+$greysec: #8899aa;
+$bluesec4: #70cbe0;
+
+// Secondary colors (Information, graphics)
+$redsec: #ee3557;
+$greensec4: #38b55e;
+$yellowsec: #fdc164;
+$orangesec4: #f7931d;
+$bluesec5: #27a9e1;
+
+// Aranda Device Management & Aranda Mobile Device Management
+$aqua: #00A1C6;
+$aqua_low: #99f5ff;
+$blue_high: #425966;
+
+// Aranda Service Management
+$salmon: #f4846e;
+$black: #3c3c3b;
+
+// Aranda Query Manager
+$lila: #73a1d1;
+
+// Aranda Field Service
+$green: #00a99d;
+$blue_high: #425966;
+
+// Base Fonts
+$base-font-size: 18px;
+$base-line-height: 1.6;
+$base-font-color: $black;
+
+// Headline Fonts
+$headline-line-height: 1.3;
+$headline-font-color: darken($base-font-color, 10%);
+
+// Padding
+$large-pad: 1.5rem;
+$base-pad: 1rem;
+$small-pad: $large-pad / 2; //0.75rem
