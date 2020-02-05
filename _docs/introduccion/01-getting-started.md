@@ -90,18 +90,18 @@ sass:
 
 A 'Pattern' is any part of the user interface, by default there are 3 types:
 
-- **library**
-  - library are global constraints that define the basic parameters of parts of the UI.
+- **Foundations**
+  - Foundations are global constraints that define the basic parameters of parts of the UI.
   - Example, a Typeface, Primary or Secondary Colors, Icons.
 
-- **tools**
-  - tools are stand-alone UI patterns that can be directly used in the interface.
-  - They can include library, or can be constructed with uniques styles.
+- **Components**
+  - Components are stand-alone UI patterns that can be directly used in the interface.
+  - They can include Foundations, or can be constructed with uniques styles.
   - Example, Primary Button, Secondary Button, Card, Card Group, Table, etc.
 
 - **Templates**
   - Templates are pre-determined page layouts.
-  - They can include tools and library, or can be constructed uniquely.
+  - They can include components and foundations, or can be constructed uniquely.
   - Examples, Full-Width Content Page, Sidebar Page, Two Column Page
 
 
@@ -115,9 +115,9 @@ A 'Pattern' is any part of the user interface, by default there are 3 types:
     │   └── images
     │
     └── patterns/
-        ├── library/
+        ├── foundations/
         │   ├── ...
-        ├── tools/
+        ├── components/
         │   └── ...
         └── templates/
             └── ...    
@@ -147,10 +147,10 @@ control: exclude
 
 {% highlight location %}
 #Example 1: Primary Colors stored in a /color sub folder.
-/src/patterns/library/color/primary-colors.md
+/src/patterns/foundations/color/primary-colors.md
 
 #Example 2: Disabled Card stored in a /cards sub folder.
-/src/patterns/tools/cards/disabled-card.md
+/src/patterns/components/cards/disabled-card.md
 {% endhighlight %}
 
 ---
@@ -167,22 +167,22 @@ control: exclude
 
 ## What is Documentation?
 
-'Documentation' is used to store information relating to a pattern (or group of patterns), as well as information style the style guide itself - this page is an example of a document.
+'Documentation' is used to store information relating to a pattern (or group of patterns), as well as information about the style guide itself - this page is an example of a document.
 
-By default, documentation is stored in the `_docs` folder and grouped in directories that correspond to the pattern directories. An additional `/style` directory is also provided, this can contain general/non-pattern specific contents (like this page).
+By default, documentation is stored in the `_docs` folder and grouped in directories that correspond to the pattern directories. An additional `/about` directory is also provided, this can contain general/non-pattern specific contents (like this page).
 
 Patterns are always loaded into a document via an iFrame, so any style guide related styles will not interfere with your pattern.
 
 {% highlight directory %}
 │
 ├── _docs/
-│   ├── style/
+│   ├── about/
 │   │   └── ...   
 │   │
-│   ├── tools/
+│   ├── components/
 │   │   └── ...
 │   │
-│   ├── library/
+│   ├── foundations/
 │   │   ├── color.md
 │   │   ├── typography.md   
 │   │   └── ...
@@ -218,19 +218,19 @@ defaults:
       type: doc
   -
     scope:
-      path: "_docs/style"
+      path: "_docs/about"
     values:
       layout: doc
-      type: style    
+      type: about    
   -
     scope:
-      path: "_docs/library"
+      path: "_docs/foundations"
     values:
       layout: doc
       type: foundation
   -
     scope:
-      path: "_docs/tools"
+      path: "_docs/components"
     values:
       layout: doc
       type: component
@@ -254,7 +254,7 @@ defaults:
 
 {% highlight location %}
 #Pattern Location.
-/src/patterns/library/color/primary-colors.md
+/src/patterns/foundations/color/primary-colors.md
 
 #Corresponding document file option 1:
 /_docs/fondations/color.md
@@ -286,9 +286,9 @@ nav: true
 
 A button can contain text. Although any tag can be used for a button, it will only be keyboard focusable if you use a `button` tag or you add the property `tabindex="0"`.
 
-{% include pattern_block.html url='/src/patterns/tools/button/default_button.html' %}
+{% include pattern_block.html url='/src/patterns/components/button/default_button.html' %}
 
-{% include pattern_block.html url='/src/patterns/tools/button/disabled_button.html' %}
+{% include pattern_block.html url='/src/patterns/components/button/disabled_button.html' %}
 
 {% endraw %}{% endhighlight %}
 
