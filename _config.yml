@@ -9,8 +9,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-## Jekyll Serve
-port: 4000
+
 
 ## Output
 siteurl:                    ## Optional
