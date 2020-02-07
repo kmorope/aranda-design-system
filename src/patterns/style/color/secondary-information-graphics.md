@@ -10,7 +10,7 @@ colors:
   - name: $purplesec
     hex: '#657d9e'
     rgb: rgb(101,125,158)
-  - name: $greensec:
+  - name: $greensec
     hex: '#42d69c'
     rgb: rgb(66,214,156)
   - name: $purplesec1
