@@ -9,7 +9,8 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-
+## Jekyll Serve
+port: 4000
 
 ## Output
 siteurl:                    ## Optional
@@ -29,13 +30,12 @@ sg_description: This Aranda Design System maintains design and code standards an
 sg_language: en
 sg_styles: /styleguide/css/styleguide.css
 sg_favicon: /styleguide/branding/favicon.ico
-sg_ga: UA-19247091-8      ## Analytics Tracking
 
 ## Generates Style Guide Shell Styles
 ## Enable to change the style guide shell stylesheet.
 #sass:
 #  sass_dir: styleguide/_scss
-#  style: :compressed
+#  style: : compressed
 
 
 ###################################
